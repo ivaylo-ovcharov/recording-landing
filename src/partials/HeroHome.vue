@@ -45,22 +45,23 @@
           class="max-w-3xl mx-auto text-center pb-12 md:pb-16 flex flex-col items-center"
         >
           <h1 class="h1 mb-4" data-aos="fade-up">
-            Master Vue.js and Elevate Your Web Development Skills
+            Early Access to My Vue.js Planning to Deployment Course
           </h1>
           <p
             class="text-xl text-gray-400 mb-8"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            Launch a successful career as a web developer by mastering Vue.js
-            through our comprehensive, hands-on course.
+            Join the waiting list and be among the first to access the
+            introduction videos. Provide valuable feedback and secure your spot
+            FREE of charge.
           </p>
           <div class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
             <div data-aos="fade-up" data-aos-delay="400">
               <a
                 class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
                 href="https://ivo-s-school3.teachable.com/courses/asd/lectures/46902170"
-                >Start Learning Today</a
+                >Join Early Access</a
               >
             </div>
           </div>

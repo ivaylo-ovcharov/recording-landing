@@ -20,6 +20,8 @@
       <!-- <Tabs /> -->
       <!-- <Target /> -->
       <News />
+      <Faqs />
+      <Cta />
       <!-- <Newsletter /> -->
     </main>
 
@@ -39,6 +41,9 @@ import Target from "./../partials/Target.vue";
 import News from "./../partials/News.vue";
 import Newsletter from "./../partials/Newsletter.vue";
 import Footer from "./../partials/Footer.vue";
+import Faqs from "./../partials/Faqs.vue";
+
+import Cta from "../partials/Cta.vue";
 
 export default {
   name: "Home",
@@ -52,6 +57,8 @@ export default {
     Target,
     News,
     Newsletter,
+    Cta,
+    Faqs,
     Footer,
   },
 };
