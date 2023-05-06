@@ -33,7 +33,7 @@
           >
             <a
               class="btn px-4 text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
-              href="https://ivo-s-school3.teachable.com/courses/asd/lectures/46902170"
+              href="https://discord.com/channels/1104304995022667846/1104304995505029122"
               target="_blank"
             >
               <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
