@@ -57,7 +57,7 @@ export default {
             >
               <header>
                 <a
-                  href="https://discord.com/channels/1104304995022667846/1104304995505029122"
+                  href="https://ivo-s-school3.teachable.com/courses/asd/lectures/46902170"
                   target="_blank"
                   class="block mb-6"
                 >
