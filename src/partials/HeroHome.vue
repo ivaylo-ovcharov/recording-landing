@@ -105,6 +105,7 @@
             <a
               class="absolute group"
               href="https://ivo-s-school3.teachable.com/courses/asd/lectures/46902170"
+              target="_blank"
               aria-controls="modal"
             >
               <svg
