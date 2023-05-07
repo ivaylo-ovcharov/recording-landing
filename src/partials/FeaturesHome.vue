@@ -96,7 +96,8 @@
                 </ul>
                 <a
                   class="text-purple-600 hover:text-gray-200 transition duration-150 text-lg ease-in-out"
-                  href="#0"
+                  href="https://swapi-dusky.vercel.app/"
+                  target="_blank"
                   >Checkout the project</a
                 >
                 <!-- <div class="flex items-start mt-8">
