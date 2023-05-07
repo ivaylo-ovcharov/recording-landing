@@ -16,10 +16,11 @@
       <!-- Page sections -->
       <HeroHome />
       <Process />
-      <!-- <FeaturesHome /> -->
       <!-- <Tabs /> -->
       <!-- <Target /> -->
       <News />
+      <FeaturesHome />
+
       <Faqs />
       <Cta />
       <!-- <Newsletter /> -->
