@@ -15,11 +15,12 @@
 
       <!-- Page sections -->
       <HeroHome />
-      <Process />
+      <FeaturesZigzag />
+      <!-- <Process class="mb-14" /> -->
       <!-- <Tabs /> -->
       <!-- <Target /> -->
-      <News />
-      <FeaturesHome />
+      <News class="mb-14" />
+      <FeaturesHome class="mb-20" />
 
       <Faqs />
       <Cta />
@@ -37,6 +38,8 @@ import PageIllustration from "./../partials/PageIllustration.vue";
 import HeroHome from "./../partials/HeroHome.vue";
 import Process from "./../partials/Process.vue";
 import FeaturesHome from "./../partials/FeaturesHome.vue";
+
+import FeaturesZigzag from "./../partials/FeaturesZigzag.vue";
 import Tabs from "./../partials/Tabs.vue";
 import Target from "./../partials/Target.vue";
 import News from "./../partials/News.vue";
@@ -60,6 +63,7 @@ export default {
     Newsletter,
     Cta,
     Faqs,
+    FeaturesZigzag,
     Footer,
   },
 };

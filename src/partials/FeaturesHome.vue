@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
-      <div class="py-12 md:py-20 border-t border-gray-800">
+      <div class="py-12 md:py-20 border-gray-800">
         <!-- Items -->
         <div class="grid gap-20" data-aos-id-features-home>
           <!-- Item -->
@@ -20,20 +20,22 @@
                   height="520"
                   alt="Features illustration"
                 />
-                <svg
-                  class="hidden md:block absolute inset-0 max-w-full mx-auto md:max-w-none h-auto"
-                  width="300"
-                  height="300"
-                  viewBox="0 0 540 520"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g class="fill-current text-purple-600">
-                    <circle class="pulse" cx="270" cy="260" r="64" />
-                    <circle class="pulse pulse-1" cx="270" cy="260" r="64" />
-                    <circle class="pulse pulse-2" cx="270" cy="260" r="64" />
-                    <circle class="pulse pulse-3" cx="270" cy="260" r="64" />
-                  </g>
-                </svg>
+                <a href="https://swapi-dusky.vercel.app/" target="_blank">
+                  <svg
+                    class="hidden md:block absolute inset-0 max-w-full mx-auto md:max-w-none h-auto"
+                    width="300"
+                    height="300"
+                    viewBox="0 0 540 520"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g class="fill-current text-purple-600">
+                      <circle class="pulse" cx="270" cy="260" r="64" />
+                      <circle class="pulse pulse-1" cx="270" cy="260" r="64" />
+                      <circle class="pulse pulse-2" cx="270" cy="260" r="64" />
+                      <circle class="pulse pulse-3" cx="270" cy="260" r="64" />
+                    </g>
+                  </svg>
+                </a>
               </div>
             </div>
             <!-- Content -->
