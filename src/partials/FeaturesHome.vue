@@ -21,7 +21,7 @@
                   alt="Features illustration"
                 />
                 <svg
-                  class="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto"
+                  class="hidden md:block absolute inset-0 max-w-full mx-auto md:max-w-none h-auto"
                   width="300"
                   height="300"
                   viewBox="0 0 540 520"
