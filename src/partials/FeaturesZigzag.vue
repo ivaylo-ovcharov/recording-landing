@@ -29,7 +29,7 @@
             >
               <img
                 class="max-w-full mx-auto md:max-w-none h-auto"
-                src="/course/Illustration.png"
+                src="/course/SeniorPath.png"
                 width="540"
                 height="405"
                 alt="Features 02"
