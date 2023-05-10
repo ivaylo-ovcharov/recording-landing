@@ -20,33 +20,54 @@
 
         <!-- Desktop navigation -->
         <nav class="hidden md:flex md:grow">
-          <!-- <ul class="flex grow justify-end flex-wrap items-center">
+          <ul class="flex grow justify-end flex-wrap items-center">
             <li>
-              <router-link to="/features" class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">Features</router-link>
+              <router-link
+                to="/recourses"
+                class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                >Free Recourses</router-link
+              >
             </li>
-            <li>
-              <router-link to="/pricing" class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">Pricing</router-link>
-            </li>
-            <li>
-              <router-link to="/blog" class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">Blog</router-link>
-            </li>
-            <li>
-              <router-link to="/about" class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">About us</router-link>
-            </li>
-            <Dropdown title="Support">
+            <!-- <li>
+              <router-link
+                to="/about"
+                class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                >About me</router-link
+              >
+            </li> -->
+            <!-- <li>
+              <router-link
+                to="/about"
+                class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                >Company</router-link
+              >
+            </li> -->
+            <!-- <Dropdown title="Support">
               <li>
-                <router-link to="/contact" class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">Contact us</router-link>
+                <router-link
+                  to="/contact"
+                  class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight"
+                  >Contact us</router-link
+                >
               </li>
               <li>
-                <router-link to="/help" class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">Help center</router-link>
+                <router-link
+                  to="/help"
+                  class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight"
+                  >Help center</router-link
+                >
               </li>
               <li>
-                <router-link to="/404" class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight">404</router-link>
+                <router-link
+                  to="/404"
+                  class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight"
+                  >404</router-link
+                >
               </li>
-            </Dropdown>
-          </ul> -->
-
-          <!-- <ul class="flex grow justify-end flex-wrap items-center">
+            </Dropdown> -->
+          </ul>
+          <!-- 
+          <ul class="flex grow justify-end flex-wrap items-center">
             <li>
               <router-link
                 to="/signin"
@@ -67,7 +88,7 @@
         <!-- Mobile menu -->
         <div class="md:hidden">
           <!-- Hamburger button -->
-          <button
+          <!-- <button
             class="hamburger"
             ref="hamburger"
             :class="{ active: mobileNavOpen }"
@@ -85,7 +106,7 @@
               <rect y="11" width="24" height="2" rx="1" />
               <rect y="18" width="24" height="2" rx="1" />
             </svg>
-          </button>
+          </button> -->
 
           <!-- Mobile navigation -->
           <nav

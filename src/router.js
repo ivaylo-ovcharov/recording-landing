@@ -2,9 +2,9 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "./pages/Home.vue";
 // import Features from "./pages/Features.vue";
 // import Pricing from "./pages/Pricing.vue";
-// import Blog from "./pages/Blog.vue";
+import Blog from "./pages/Blog.vue";
 // import BlogPost from "./pages/BlogPost.vue";
-// import About from "./pages/About.vue";
+import About from "./pages/About.vue";
 // import Contact from "./pages/Contact.vue";
 // import Help from "./pages/Help.vue";
 // import SignIn from "./pages/SignIn.vue";
@@ -38,17 +38,17 @@ const router = createRouter({
     //   path: '/pricing',
     //   component: Pricing
     // },
-    // {
-    //   path: '/blog',
-    //   component: Blog
-    // },
+    {
+      path: "/recourses",
+      component: Blog,
+    },
     // {
     //   path: '/blog-post',
     //   component: BlogPost
     // },
     // {
-    //   path: '/about',
-    //   component: About
+    //   path: "/about",
+    //   component: About,
     // },
     // {
     //   path: '/contact',
