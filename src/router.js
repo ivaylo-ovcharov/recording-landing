@@ -6,11 +6,12 @@ import Blog from "./pages/Blog.vue";
 // import BlogPost from "./pages/BlogPost.vue";
 import About from "./pages/About.vue";
 // import Contact from "./pages/Contact.vue";
-// import Help from "./pages/Help.vue";
+import Help from "./pages/Help.vue";
 // import SignIn from "./pages/SignIn.vue";
 // import SignUp from "./pages/SignUp.vue";
 // import ResetPassword from "./pages/ResetPassword.vue";
 import PageNotFound from "./pages/PageNotFound.vue";
+import Courses from "./pages/Courses.vue";
 
 const routerHistory = createWebHistory();
 
@@ -40,16 +41,20 @@ const router = createRouter({
     // },
     {
       path: "/recourses",
-      component: Blog,
+      component: Help,
     },
     // {
     //   path: '/blog-post',
     //   component: BlogPost
     // },
-    // {
-    //   path: "/about",
-    //   component: About,
-    // },
+    {
+      path: "/courses",
+      component: Courses,
+    },
+    {
+      path: "/about",
+      component: About,
+    },
     // {
     //   path: '/contact',
     //   component: Contact

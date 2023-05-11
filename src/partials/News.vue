@@ -40,7 +40,7 @@ export default {
       <div class="py-12 md:py-20">
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-          <h2 class="h2" data-aos="fade-up">Explore Modules</h2>
+          <h2 class="h2" data-aos="fade-up">Build App with Swapi and Vue.js</h2>
         </div>
 
         <!-- Articles list -->

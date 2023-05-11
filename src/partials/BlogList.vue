@@ -3,11 +3,11 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <div class="pt-32 pb-12 md:pt-40 md:pb-20">
         <!-- Page header -->
-        <div class="max-w-3xl pb-12 md:pb-20 text-center md:text-left">
+        <!-- <div class="max-w-3xl pb-12 md:pb-20 text-center md:text-left">
           <h1 class="h1" data-aos="fade-up">
             Level Up Your Game with These Free Resources
           </h1>
-        </div>
+        </div> -->
 
         <!-- Featured article -->
         <div class="pb-12 md:pb-20">
@@ -105,7 +105,7 @@
           </article>
         </div>
 
-        <!-- <div class="max-w-sm mx-auto md:max-w-none">
+        <div class="max-w-sm mx-auto md:max-w-none">
           <h4 class="h4 pb-6 mb-10 border-b border-gray-700" data-aos="fade-up">
             Latest articles
           </h4>
@@ -180,7 +180,7 @@
               </footer>
             </article>
           </div>
-        </div> -->
+        </div>
 
         <!-- Pagination -->
       </div>
