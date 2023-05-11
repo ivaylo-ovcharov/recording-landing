@@ -34,12 +34,12 @@
             data-aos="fade-left"
             data-aos-delay="200"
           >
-            <img
+            <!-- <img
               src="/course/kickbox2.webp"
               width="250"
               height="188"
               alt="Team mosaic 03"
-            />
+            /> -->
           </figure>
           <figure
             class="absolute h-auto"
