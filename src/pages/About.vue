@@ -21,7 +21,7 @@
       <!-- <TestimonialsCarousel /> -->
       <!-- <Career /> -->
       <Clients />
-      <Cta />
+      <CtaAbout />
 
       <!-- <Newsletter /> -->
     </main>
@@ -43,7 +43,7 @@ import Career from "../partials/Career.vue";
 import Clients from "../partials/Clients.vue";
 import Newsletter from "../partials/Newsletter.vue";
 import Footer from "./../partials/Footer.vue";
-import Cta from "../partials/Cta.vue";
+import CtaAbout from "../partials/CtaAbout.vue";
 
 export default {
   name: "About",
@@ -59,7 +59,7 @@ export default {
     Clients,
     Newsletter,
     Footer,
-    Cta,
+    CtaAbout,
   },
 };
 </script>

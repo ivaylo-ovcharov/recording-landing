@@ -45,7 +45,8 @@
           class="max-w-3xl mx-auto text-center pb-12 md:pb-16 flex flex-col items-center"
         >
           <h1 class="h1 mb-4" data-aos="fade-up">
-            Elevate Your Vue.js Skills Build High-Quality Apps from Scratch
+            Elevate Your Frontend skills Build High-Quality Apps from Scratch
+            with Vue.js
           </h1>
           <p
             class="text-xl text-gray-400 mb-8"
@@ -89,85 +90,19 @@
         </div>
 
         <!-- Hero image -->
-        <div>
-          <div
-            class="relative flex justify-center items-center"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            <img
-              class="mx-auto"
-              src="/course/Intro.png"
-              width="1024"
-              height="504"
-              alt="Hero"
-            />
-            <a
-              class="absolute group"
-              href="https://ivo-s-school3.teachable.com/courses/asd/lectures/46902170"
-              target="_blank"
-              aria-controls="modal"
-            >
-              <svg
-                class="w-16 h-16 sm:w-20 sm:h-20 hover:opacity-75 transition duration-150 ease-in-out"
-                viewBox="0 0 88 88"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <defs>
-                  <linearGradient
-                    x1="78.169%"
-                    y1="9.507%"
-                    x2="24.434%"
-                    y2="90.469%"
-                    id="a"
-                  >
-                    <stop stop-color="#EBF1F5" stop-opacity=".8" offset="0%" />
-                    <stop stop-color="#EBF1F5" offset="100%" />
-                  </linearGradient>
-                </defs>
-                <circle fill="url(#a)" cx="44" cy="44" r="44" />
-                <path
-                  class="fill-current text-purple-600"
-                  d="M52 44a.999.999 0 00-.427-.82l-10-7A1 1 0 0040 37V51a.999.999 0 001.573.82l10-7A.995.995 0 0052 44V44c0 .001 0 .001 0 0z"
-                />
-              </svg>
-            </a>
-          </div>
-
-          <Modal
-            id="modal"
-            ariaLabel="modal-headline"
-            :show="videoModalOpen"
-            @handleClose="videoModalOpen = false"
-          >
-            <div class="relative pb-9/16">
-              <video
-                ref="video"
-                className="absolute w-full h-full"
-                width="1920"
-                height="1080"
-                loop
-                controls
-              >
-                <source src="../videos/video.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </div>
-          </Modal>
-        </div>
+        <WistiaPlayer videoId="irrbbakfrf" />
       </div>
     </div>
   </section>
 </template>
-
 <script>
-import { ref, watch } from "vue";
-import Modal from "./../utils/Modal.vue";
+import { ref, watch, onMounted } from "vue";
+import WistiaPlayer from "../partials/WistiaPlayer.vue";
 
 export default {
   name: "HeroHome",
   components: {
-    Modal,
+    WistiaPlayer,
   },
   setup() {
     const videoModalOpen = ref(false);

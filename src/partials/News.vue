@@ -7,26 +7,38 @@ export default {
         {
           name: "Research and Planning",
           img: "/course/1ReseachPlanning.png",
+          description:
+            "Learn how to visualise your ideas, nail the requirement specification and give your self a head start for building the app",
         },
         {
           name: "Set up your theme and tokens",
           img: "/course/2ColorsTokens.png",
+          description:
+            "We will set up our boilerplate and configure our code editor for smoother dev exprience ",
         },
         {
           name: "Research and Planning",
           img: "/course/3DesignSystem.png",
+          description:
+            "Create your own design system Step into the Designer Role and build them fron scratch in Vue",
         },
         {
           name: "Research and Planning",
           img: "/course/4DataLayer.png",
+          description:
+            "We will create a method that will allow us to fetch data with a single line of code, we will also include caching",
         },
         {
           name: "Research and Planning",
           img: "/course/5Peaces.png",
+          description:
+            "Once we have all building blocks done we will put the peaces together and create our DataTable component",
         },
         {
           name: "Research and Planning",
           img: "/course/6Allignments.png",
+          description:
+            "Final UI/UX alignments and preparation for release, some details that most developers miss",
         },
       ],
     };
@@ -73,7 +85,9 @@ export default {
                     />
                   </figure>
                 </a>
-
+                <p class="text-lg text-gray-400 grow">
+                  {{ course.description }}
+                </p>
                 <!-- <h3 class="h4 mb-2">
                   <router-link
                     to="/blog-post"

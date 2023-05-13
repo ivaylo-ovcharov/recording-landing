@@ -9,10 +9,7 @@
         height="394"
         alt="About"
       />
-      <div
-        class="absolute inset-0 bg-gray-900 opacity-75"
-        aria-hidden="true"
-      ></div>
+      <div class="absolute inset-0 opacity-75" aria-hidden="true"></div>
     </div>
 
     <!-- Hero content -->

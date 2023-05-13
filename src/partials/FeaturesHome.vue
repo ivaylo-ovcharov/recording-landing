@@ -56,7 +56,7 @@
                   developed a complete, production-ready application,
                   demonstrating your newfound skills and expertise.
                 </p>
-                <ul
+                <!-- <ul
                   class="flex flex-wrap text-lg text-gray-400 -mx-2 -my-1 mb-2"
                 >
                   <li class="flex items-center mx-2 my-1">
@@ -95,13 +95,25 @@
                     </svg>
                     <span>Data Loaders</span>
                   </li>
-                </ul>
-                <a
+                </ul> -->
+                <!-- <a
                   class="text-purple-600 hover:text-gray-200 transition duration-150 text-lg ease-in-out"
                   href="https://swapi-dusky.vercel.app/"
                   target="_blank"
                   >Checkout the project</a
+                > -->
+
+                <a
+                  class="btn text-white bg-purple-600 hover:bg-purple-700 group"
+                  href="https://swapi-dusky.vercel.app/"
+                  target="_blank"
                 >
+                  Checkout the project
+                  <span
+                    class="tracking-normal text-purple-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1"
+                    >-&gt;</span
+                  >
+                </a>
                 <!-- <div class="flex items-start mt-8">
                   <img class="rounded-full shrink-0 mr-4" src="../images/features-avatar.jpg" width="40" height="40" alt="Features avatar" />
                   <div>

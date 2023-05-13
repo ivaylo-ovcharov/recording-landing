@@ -3,9 +3,8 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <div class="flex items-center justify-between h-20">
         <!-- Site branding -->
-        <div class="shrink-0 mr-4">
-          <!-- Logo -->
-        </div>
+        <!-- <div class="shrink-0 mr-4">
+        </div> -->
 
         <!-- Desktop navigation -->
         <nav class="hidden md:flex md:grow items-center justify-between">
@@ -22,18 +21,18 @@
             </li>
             <li>
               <router-link
+                to="/community"
+                class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                >Community</router-link
+              >
+            </li>
+            <li>
+              <router-link
                 to="/about"
                 class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >About me</router-link
               >
             </li>
-            <!-- <li>
-              <router-link
-                to="/recourses"
-                class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
-                >Free Recourses</router-link
-              >
-            </li> -->
 
             <!-- <Dropdown title="Support">
               <li>
@@ -84,7 +83,7 @@
         <!-- Mobile menu -->
         <div class="md:hidden">
           <!-- Hamburger button -->
-          <!-- <button
+          <button
             class="hamburger"
             ref="hamburger"
             :class="{ active: mobileNavOpen }"
@@ -102,7 +101,7 @@
               <rect y="11" width="24" height="2" rx="1" />
               <rect y="18" width="24" height="2" rx="1" />
             </svg>
-          </button> -->
+          </button>
 
           <!-- Mobile navigation -->
           <nav
@@ -116,72 +115,29 @@
             ]"
           >
             <ul class="bg-gray-800 px-4 py-2">
-              <li>
+              <div class="py-10 text-center">
                 <router-link
-                  to="/features"
-                  class="flex text-gray-300 hover:text-gray-200 py-2"
-                  >Features</router-link
+                  to="/courses"
+                  class="flex text-gray-300 hover:text-gray-200 text-xl py-2 justify-center"
+                  >Courses</router-link
                 >
-              </li>
-              <li>
                 <router-link
-                  to="/pricing"
-                  class="flex text-gray-300 hover:text-gray-200 py-2"
-                  >Pricing</router-link
+                  to="/community"
+                  class="flex text-gray-300 hover:text-gray-200 text-xl py-2 justify-center"
+                  >Community</router-link
                 >
-              </li>
-              <li>
-                <router-link
-                  to="/blog"
-                  class="flex text-gray-300 hover:text-gray-200 py-2"
-                  >Blog</router-link
-                >
-              </li>
-              <li>
                 <router-link
                   to="/about"
-                  class="flex text-gray-300 hover:text-gray-200 py-2"
-                  >About us</router-link
+                  class="flex text-gray-300 hover:text-gray-200 text-xl py-2 justify-center"
+                  >About me</router-link
                 >
-              </li>
-              <li class="py-2 my-2 border-t border-b border-gray-700">
-                <span class="flex text-gray-300 py-2">Support</span>
-                <ul class="pl-4">
-                  <li>
-                    <router-link
-                      to="/contact"
-                      class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
-                      >Contact us</router-link
-                    >
-                  </li>
-                  <li>
-                    <router-link
-                      to="/help"
-                      class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
-                      >Help center</router-link
-                    >
-                  </li>
-                  <li>
-                    <router-link
-                      to="/404"
-                      class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
-                      >404</router-link
-                    >
-                  </li>
-                </ul>
-              </li>
+              </div>
+
               <li>
-                <router-link
-                  to="/signin"
+                <a
+                  href="#0"
                   class="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center"
-                  >Sign in</router-link
-                >
-              </li>
-              <li>
-                <router-link
-                  to="/signup"
-                  class="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
-                  >Sign up</router-link
+                  >Let's grab a coffee</a
                 >
               </li>
             </ul>

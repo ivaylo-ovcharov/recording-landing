@@ -3,7 +3,9 @@ import Home from "./pages/Home.vue";
 // import Features from "./pages/Features.vue";
 // import Pricing from "./pages/Pricing.vue";
 import Blog from "./pages/Blog.vue";
-// import BlogPost from "./pages/BlogPost.vue";
+import Community from "./pages/Community.vue";
+
+import BlogPost from "./pages/BlogPost.vue";
 import About from "./pages/About.vue";
 // import Contact from "./pages/Contact.vue";
 import Help from "./pages/Help.vue";
@@ -39,14 +41,14 @@ const router = createRouter({
     //   path: '/pricing',
     //   component: Pricing
     // },
-    {
-      path: "/recourses",
-      component: Help,
-    },
     // {
-    //   path: '/blog-post',
-    //   component: BlogPost
+    //   path: "/recourses",
+    //   component: Help,
     // },
+    {
+      path: "/courses/build-app-swapi-and-vue",
+      component: BlogPost,
+    },
     {
       path: "/courses",
       component: Courses,
@@ -59,10 +61,10 @@ const router = createRouter({
     //   path: '/contact',
     //   component: Contact
     // },
-    // {
-    //   path: '/help',
-    //   component: Help
-    // },
+    {
+      path: "/community",
+      component: Community,
+    },
     // {
     //   path: '/signin',
     //   component: SignIn

@@ -79,12 +79,11 @@
                 resources designed to complement the Vue.js Mastery Course.
                 Access Figma files, in-depth guides, and reusable code snippets.
               </p>
-              <a
+              <router-link
                 class="btn mt-4 px-4 text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
-                href="https://ivo-s-school3.teachable.com/courses/asd/lectures/46902170"
-                target="_blank"
+                to="/courses/build-app-swapi-and-vue"
               >
-                Enroll For Free</a
+                Learn more</router-link
               >
               <!-- <footer class="flex items-center mt-4">
                 <a href="#0">
