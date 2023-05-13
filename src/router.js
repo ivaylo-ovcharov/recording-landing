@@ -1,17 +1,10 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "./pages/Home.vue";
-// import Features from "./pages/Features.vue";
-// import Pricing from "./pages/Pricing.vue";
-import Blog from "./pages/Blog.vue";
 import Community from "./pages/Community.vue";
 
-import BlogPost from "./pages/BlogPost.vue";
+import CourseSwapi from "./pages/courses/CourseSwapi.vue";
+
 import About from "./pages/About.vue";
-// import Contact from "./pages/Contact.vue";
-import Help from "./pages/Help.vue";
-// import SignIn from "./pages/SignIn.vue";
-// import SignUp from "./pages/SignUp.vue";
-// import ResetPassword from "./pages/ResetPassword.vue";
 import PageNotFound from "./pages/PageNotFound.vue";
 import Courses from "./pages/Courses.vue";
 
@@ -30,24 +23,12 @@ const router = createRouter({
   history: routerHistory,
   routes: [
     {
+      path: "/courses/build-app-swapi-and-vue",
+      component: CourseSwapi,
+    },
+    {
       path: "/",
       component: Home,
-    },
-    // {
-    //   path: '/features',
-    //   component: Features
-    // },
-    // {
-    //   path: '/pricing',
-    //   component: Pricing
-    // },
-    // {
-    //   path: "/recourses",
-    //   component: Help,
-    // },
-    {
-      path: "/courses/build-app-swapi-and-vue",
-      component: BlogPost,
     },
     {
       path: "/courses",
@@ -57,26 +38,10 @@ const router = createRouter({
       path: "/about",
       component: About,
     },
-    // {
-    //   path: '/contact',
-    //   component: Contact
-    // },
     {
       path: "/community",
       component: Community,
     },
-    // {
-    //   path: '/signin',
-    //   component: SignIn
-    // },
-    // {
-    //   path: '/signup',
-    //   component: SignUp
-    // },
-    // {
-    //   path: '/reset-password',
-    //   component: ResetPassword
-    // },
     {
       path: "/:pathMatch(.*)*",
       component: PageNotFound,
