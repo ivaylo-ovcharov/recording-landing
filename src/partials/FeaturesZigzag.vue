@@ -4,17 +4,16 @@
       <div class="py-12 md:py-20 border-t border-gray-800">
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-          <div
+          <!-- <div
             class="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4"
           >
             Reach goals that matter
-          </div>
+          </div> -->
           <h1 class="h2 mb-4">Supercharge Your Frontend Career</h1>
           <p class="text-xl text-gray-400">
             Unlock the true potential of your frontend career with this
             comprehensive course. Gain the skills and knowledge to create
-            exceptional, high-impact web applications that will set you apart in
-            the industry.
+            high-impact web applications
           </p>
         </div>
 

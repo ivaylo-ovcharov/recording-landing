@@ -2,11 +2,6 @@
   <header class="absolute w-full z-30">
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <div class="flex items-center justify-between h-20">
-        <!-- Site branding -->
-        <!-- <div class="shrink-0 mr-4">
-        </div> -->
-
-        <!-- Desktop navigation -->
         <nav class="hidden md:flex md:grow items-center justify-between">
           <router-link to="/" class="flex" aria-label="Cruip">
             <img style="height: 35px" src="/logo.svg" />
@@ -23,8 +18,8 @@
               <router-link
                 to="/community"
                 class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
-                >Community</router-link
-              >
+                >Community
+              </router-link>
             </li>
             <li>
               <router-link
@@ -33,77 +28,46 @@
                 >About me</router-link
               >
             </li>
-
-            <!-- <Dropdown title="Support">
-              <li>
-                <router-link
-                  to="/contact"
-                  class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight"
-                  >Contact us</router-link
-                >
-              </li>
-              <li>
-                <router-link
-                  to="/help"
-                  class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight"
-                  >Help center</router-link
-                >
-              </li>
-              <li>
-                <router-link
-                  to="/404"
-                  class="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight"
-                  >404</router-link
-                >
-              </li>
-            </Dropdown> -->
           </ul>
 
           <ul class="flex justify-end flex-wrap items-center">
-            <li>
+            <ThemeSwitch />
+            <!-- <li>
               <a
                 href="#0"
                 class="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out gap-2"
               >
                 Let's grab a coffee</a
               >
-            </li>
-            <!-- <li>
-              <router-link
-                to="/signup"
-                class="btn-sm text-white hover:bg-purple-600 ml-3 border-2 border-purple-600 flex justify-center items-center gap-3"
-              >
-                
-                Let's have a chat</router-link
-              >
             </li> -->
           </ul>
         </nav>
 
         <!-- Mobile menu -->
-        <div class="md:hidden">
-          <!-- Hamburger button -->
-          <button
-            class="hamburger"
-            ref="hamburger"
-            :class="{ active: mobileNavOpen }"
-            aria-controls="mobile-nav"
-            :aria-expanded="mobileNavOpen"
-            @click="mobileNavOpen = !mobileNavOpen"
-          >
-            <span class="sr-only">Menu</span>
-            <svg
-              class="w-6 h-6 fill-current text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
+        <div class="md:hidden w-full">
+          <div class="flex justify-between">
+            <button
+              class="hamburger"
+              ref="hamburger"
+              :class="{ active: mobileNavOpen }"
+              aria-controls="mobile-nav"
+              :aria-expanded="mobileNavOpen"
+              @click="mobileNavOpen = !mobileNavOpen"
             >
-              <rect y="4" width="24" height="2" rx="1" />
-              <rect y="11" width="24" height="2" rx="1" />
-              <rect y="18" width="24" height="2" rx="1" />
-            </svg>
-          </button>
+              <span class="sr-only">Menu</span>
+              <svg
+                class="w-6 h-6 fill-current text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect y="4" width="24" height="2" rx="1" />
+                <rect y="11" width="24" height="2" rx="1" />
+                <rect y="18" width="24" height="2" rx="1" />
+              </svg>
+            </button>
+            <ThemeSwitch />
+          </div>
 
-          <!-- Mobile navigation -->
           <nav
             id="mobile-nav"
             ref="mobileNav"
@@ -131,6 +95,7 @@
                   class="flex text-gray-300 hover:text-gray-200 text-xl py-2 justify-center"
                   >About me</router-link
                 >
+                sd
               </div>
 
               <li>
@@ -148,13 +113,14 @@
   </header>
 </template>
 
-<script>
-import Dropdown from "./../utils/Dropdown.vue";
 
+
+<script>
+import ThemeSwitch from "./ThemeSwitch.vue";
 export default {
   name: "Header",
   components: {
-    Dropdown,
+    ThemeSwitch,
   },
   data: function () {
     return {

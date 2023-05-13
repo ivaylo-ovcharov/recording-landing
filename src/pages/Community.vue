@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col min-h-screen overflow-hidden bg-slate-900">
+  <div class="flex flex-col min-h-screen overflow-hidden">
     <!-- Site header -->
     <Header />
 

@@ -17,7 +17,7 @@
             class="text-center md:text-left md:min-w-[30rem]"
             data-aos="fade-right"
           >
-            <h1 class="h1 font-playfair-display text-slate-100 mb-4">
+            <h1 class="h1 font-playfair-display mb-4">
               Join Our Discord Community
             </h1>
             <p class="text-xl text-slate-400 mb-8">

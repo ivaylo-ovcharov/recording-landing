@@ -52,7 +52,11 @@ export default {
       <div class="py-12 md:py-20">
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-          <h2 class="h2" data-aos="fade-up">Build App with Swapi and Vue.js</h2>
+          <h2 class="h2 mb-4">Build web app with Swapi and Vue.js</h2>
+          <p class="text-xl text-gray-400">
+            Enhance your learning experience with our carefully curated
+            resources designed to complement the Vue.js Mastery Course.
+          </p>
         </div>
 
         <!-- Articles list -->
