@@ -90,18 +90,6 @@
             <!-- Article content -->
 
             <!-- Article footer -->
-            <footer>
-              <div
-                class="md:flex md:items-center md:justify-between text-center md:text-left"
-              >
-                <div class="text-lg text-gray-400 italic">
-                  Originally published at
-                  <a class="text-gray-200" href="https://cruip.com/"
-                    >https://academy.ivodev.com/</a
-                  >.
-                </div>
-              </div>
-            </footer>
           </article>
         </div>
       </div>
