@@ -15,7 +15,7 @@
         </div>
 
         <!-- Items -->
-        <div class="grid gap-20">
+        <div class="grid gap-28">
           <!-- 1st item -->
           <div class="md:grid md:grid-cols-12 md:gap-6 items-center">
             <!-- Image -->
