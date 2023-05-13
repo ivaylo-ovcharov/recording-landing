@@ -25,7 +25,7 @@
             >
               <img
                 class="max-w-full mx-auto md:max-w-none h-auto"
-                src="../images/features-03-image-01.png"
+                src="/course/CommunityChat.svg"
                 width="540"
                 height="405"
                 alt="Features 01"
@@ -42,7 +42,9 @@
                 >
                   Seek Guidance
                 </div>
-                <h3 class="h3 mb-3">Get insights from experienced peers.</h3>
+                <h3 class="h3 mb-3">
+                  Get together with experienced peers and grow together.
+                </h3>
                 <p class="text-xl text-gray-400 mb-4">
                   Tap into the collective knowledge of the community. Whether
                   you're seeking advice or looking for innovative ideas.
@@ -82,7 +84,9 @@
                         d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
                       />
                     </svg>
-                    <span>Share and exchange resources </span>
+                    <span
+                      >Share articles, tools or resources you find useful
+                    </span>
                   </li>
                 </ul>
               </div>
@@ -98,7 +102,7 @@
             >
               <img
                 class="max-w-full mx-auto md:max-w-none h-auto"
-                src="../images/features-03-image-02.png"
+                src="/course/CommunityFavors.svg"
                 width="540"
                 height="405"
                 alt="Features 02"
@@ -113,9 +117,9 @@
                 <div
                   class="font-architects-daughter text-xl text-purple-600 mb-2"
                 >
-                  Share Knowledge
+                  Exchange Favors
                 </div>
-                <h3 class="h3 mb-3">Contribute to Collective Growth</h3>
+                <h3 class="h3 mb-3">Give a Favor get a Favor</h3>
                 <p class="text-xl text-gray-400 mb-4">
                   Everyone has something to offer. Share your expertise,
                   experiences or even interesting articles and tools.
@@ -173,7 +177,7 @@
             >
               <img
                 class="max-w-full mx-auto md:max-w-none h-auto"
-                src="../images/features-03-image-03.png"
+                src="/course/CommunityCourseCreation.svg"
                 width="540"
                 height="405"
                 alt="Features 03"
