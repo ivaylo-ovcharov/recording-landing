@@ -1,6 +1,6 @@
 import { ref } from "vue";
 
-const isDarkTheme = ref(false);
+const isDarkTheme = ref(true);
 
 export default function useTheme() {
   return {
