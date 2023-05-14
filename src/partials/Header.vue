@@ -98,11 +98,15 @@
                   >Community</router-link
                 >
                 <router-link
+                  to="/resources"
+                  class="flex text-gray-300 hover:text-gray-200 text-xl py-2 justify-center"
+                  >Resources</router-link
+                >
+                <router-link
                   to="/about"
                   class="flex text-gray-300 hover:text-gray-200 text-xl py-2 justify-center"
                   >About me</router-link
                 >
-                sd
               </div>
 
               <li>
