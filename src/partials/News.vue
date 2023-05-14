@@ -72,9 +72,8 @@ export default {
               data-aos="fade-up"
             >
               <header>
-                <a
-                  href="https://ivo-s-school3.teachable.com/courses/asd/lectures/46902170"
-                  target="_blank"
+                <router-link
+                  to="/courses/build-app-swapi-and-vue"
                   class="block mb-6"
                 >
                   <figure
@@ -88,7 +87,7 @@ export default {
                       alt="News 01"
                     />
                   </figure>
-                </a>
+                </router-link>
                 <p class="text-lg text-body grow">
                   {{ course.description }}
                 </p>
