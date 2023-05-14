@@ -24,7 +24,7 @@
 
           <!-- Item -->
           <div
-            class="flex items-center justify-center h-24 border border-border-defaul p-2"
+            class="flex items-center justify-center h-24 border border-border-default p-2"
             data-aos="fade-up"
             data-aos-delay="100"
             data-aos-anchor="[data-aos-id-clients]"
@@ -34,7 +34,7 @@
 
           <!-- Item -->
           <div
-            class="flex items-center justify-center h-24 border border-border-defaul p-2"
+            class="flex items-center justify-center h-24 border border-border-default p-2"
             data-aos="fade-up"
             data-aos-delay="200"
             data-aos-anchor="[data-aos-id-clients]"
@@ -44,7 +44,7 @@
 
           <!-- Item -->
           <div
-            class="flex items-center justify-center h-24 border border-border-defaul p-2"
+            class="flex items-center justify-center h-24 border border-border-default p-2"
             data-aos="fade-up"
             data-aos-delay="300"
             data-aos-anchor="[data-aos-id-clients]"
@@ -54,7 +54,7 @@
 
           <!-- Item -->
           <div
-            class="flex items-center justify-center h-24 border border-border-defaul p-2"
+            class="flex items-center justify-center h-24 border border-border-default p-2"
             data-aos="fade-up"
             data-aos-delay="400"
             data-aos-anchor="[data-aos-id-clients]"
@@ -64,7 +64,7 @@
 
           <!-- Item -->
           <div
-            class="flex items-center justify-center h-24 border border-border-defaul p-2"
+            class="flex items-center justify-center h-24 border border-border-default p-2"
             data-aos="fade-up"
             data-aos-delay="500"
             data-aos-anchor="[data-aos-id-clients]"
@@ -74,7 +74,7 @@
 
           <!-- Item -->
           <div
-            class="flex items-center justify-center h-24 border border-border-defaul0 p-2"
+            class="flex items-center justify-center h-24 border border-border-default p-2"
             data-aos="fade-up"
             data-aos-delay="600"
             data-aos-anchor="[data-aos-id-clients]"
@@ -84,7 +84,7 @@
 
           <!-- Item -->
           <div
-            class="flex items-center justify-center h-24 border border-border-defaul p-2"
+            class="flex items-center justify-center h-24 border border-border-default p-2"
             data-aos="fade-up"
             data-aos-delay="700"
             data-aos-anchor="[data-aos-id-clients]"

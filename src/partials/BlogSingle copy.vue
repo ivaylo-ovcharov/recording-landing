@@ -85,7 +85,7 @@
                 alt="News single"
               />
             </figure> -->
-            <WistiaPlayer videoId="irrbbakfrf" class="mx-auto md:max-w-none" />
+            <WistiaPlayer videoId="um97m04i2o" class="mx-auto md:max-w-none" />
 
             <!-- Article content -->
             <div class="text-lg text-body">

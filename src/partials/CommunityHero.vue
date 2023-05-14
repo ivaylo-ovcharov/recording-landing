@@ -63,7 +63,7 @@
 
             <div class="flex justify-center items-center">
               <WistiaPlayer
-                videoId="irrbbakfrf"
+                videoId="um97m04i2o"
                 class="mx-auto md:max-w-none"
                 style="width: 540px; height: 300px"
               />
