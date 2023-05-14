@@ -8,7 +8,7 @@
           <h1 class="h2 mb-4">
             How to Maximize Your Experience in Our Community
           </h1>
-          <p class="text-xl text-gray-400">
+          <p class="text-xl text-body">
             Our Discord group is more than just a chat platform, it's a space
             where collaboration, learning, and innovation take place.
           </p>
@@ -45,11 +45,11 @@
                 <h3 class="h3 mb-3">
                   Get together with experienced peers and grow together.
                 </h3>
-                <p class="text-xl text-gray-400 mb-4">
+                <p class="text-xl text-body mb-4">
                   Tap into the collective knowledge of the community. Whether
                   you're seeking advice or looking for innovative ideas.
                 </p>
-                <ul class="text-lg text-gray-400 -mb-2">
+                <ul class="text-lg text-body -mb-2">
                   <li class="flex items-center mb-2">
                     <svg
                       class="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
@@ -117,11 +117,11 @@
                   Shape the Course
                 </div>
                 <h3 class="h3 mb-3">Be Part of the Course Creation</h3>
-                <p class="text-xl text-gray-400 mb-4">
+                <p class="text-xl text-body mb-4">
                   Your voice matters. Contribute to the course development
                   process and help us shape the content.
                 </p>
-                <ul class="text-lg text-gray-400 -mb-2">
+                <ul class="text-lg text-body -mb-2">
                   <li class="flex items-center mb-2">
                     <svg
                       class="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"

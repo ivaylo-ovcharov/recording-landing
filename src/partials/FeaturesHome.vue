@@ -51,13 +51,13 @@
                   Project Showcase
                 </div>
                 <h3 class="h3 mb-3">Discover the Impressive Outcome</h3>
-                <p class="text-xl text-gray-400 mb-4">
+                <p class="text-xl text-body mb-4">
                   By the end of this Vue.js Mastery Course, you'll have
                   developed a complete, production-ready application,
                   demonstrating your newfound skills and expertise.
                 </p>
                 <!-- <ul
-                  class="flex flex-wrap text-lg text-gray-400 -mx-2 -my-1 mb-2"
+                  class="flex flex-wrap text-lg text-body -mx-2 -my-1 mb-2"
                 >
                   <li class="flex items-center mx-2 my-1">
                     <svg
@@ -117,7 +117,7 @@
                 <!-- <div class="flex items-start mt-8">
                   <img class="rounded-full shrink-0 mr-4" src="../images/features-avatar.jpg" width="40" height="40" alt="Features avatar" />
                   <div>
-                    <blockquote class="text-gray-400 italic m-0 mb-3">"Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing".</blockquote>
+                    <blockquote class="text-body italic m-0 mb-3">"Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing".</blockquote>
                     <div class="text-gray-700 font-medium">
                       <cite class="text-gray-200 not-italic">— Anastasia Dan</cite> - <a class="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="#0">UX Board</a>
                     </div>

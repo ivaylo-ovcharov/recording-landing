@@ -1,7 +1,7 @@
 <template>
   <component :is="tag">
     <button
-      class="flex items-center w-full text-lg font-medium text-left py-5 border-t border-gray-800"
+      class="flex items-center w-full text-lg font-medium text-left py-5 border-t border-border-default"
       @click.prevent="toggleAccordion(accordionOpen)"
       :aria-expanded="accordionOpen"
     >
@@ -31,7 +31,7 @@
     </button>
     <div
       ref="accordion"
-      class="text-xl text-gray-400 overflow-hidden transition-all duration-300 ease-in-out"
+      class="text-xl text-body overflow-hidden transition-all duration-300 ease-in-out"
       :style="
         accordionOpen
           ? 'max-height: ' + $refs.accordion.scrollHeight + 'px; opacity: 1'

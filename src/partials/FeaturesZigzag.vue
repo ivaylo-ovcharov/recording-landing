@@ -10,7 +10,7 @@
             Reach goals that matter
           </div> -->
           <h1 class="h2 mb-4">Supercharge Your Frontend Career</h1>
-          <p class="text-xl text-gray-400">
+          <p class="text-xl text-body">
             Unlock the true potential of your frontend career with this
             comprehensive course. Gain the skills and knowledge to create
             high-impact web applications
@@ -46,12 +46,12 @@
                   Unlock Your Full Potential
                 </div>
                 <h3 class="h3 mb-3">Accelerate Your Career Growth</h3>
-                <p class="text-xl text-gray-400 mb-4">
+                <p class="text-xl text-body mb-4">
                   By focusing on the core pillars of becoming a Senior
                   developer, you'll gain advanced knowledge and abilities in
                   Vue.js. Here's what you can look forward to:
                 </p>
-                <ul class="text-lg text-gray-400 -mb-2">
+                <ul class="text-lg text-body -mb-2">
                   <li class="flex items-center mb-2">
                     <svg
                       class="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"

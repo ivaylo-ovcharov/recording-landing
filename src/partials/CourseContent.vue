@@ -34,7 +34,7 @@
             that most developers miss
           </Accordion>
           <span
-            class="block border-t border-gray-800"
+            class="block border-t border-border-default"
             aria-hidden="true"
           ></span>
         </ul>

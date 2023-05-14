@@ -11,7 +11,7 @@
                   Design and Build web app with Swapi and Vue.js
                 </h1>
                 <p
-                  class="text-xl text-gray-400"
+                  class="text-xl text-body"
                   data-aos="fade-up"
                   data-aos-delay="200"
                 >

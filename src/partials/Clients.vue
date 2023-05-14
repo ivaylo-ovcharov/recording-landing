@@ -5,7 +5,7 @@
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-16">
           <h1 class="h2 mb-4">Products and Technologies I love</h1>
-          <p class="text-xl text-gray-400">
+          <p class="text-xl text-body">
             Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur.
           </p>

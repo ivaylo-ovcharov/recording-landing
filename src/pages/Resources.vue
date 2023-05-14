@@ -28,7 +28,7 @@
                     <h4 class="text-xl font-medium mb-2">
                       How to win friends and influence people
                     </h4>
-                    <p class="text-lg text-gray-400">
+                    <p class="text-lg text-body">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Quis enim lobortis scelerisque fermentum.
@@ -38,7 +38,7 @@
                     <h4 class="text-xl font-medium mb-2">
                       Clean Code - Uncle Bob
                     </h4>
-                    <p class="text-lg text-gray-400">
+                    <p class="text-lg text-body">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Quis enim lobortis scelerisque fermentum.
@@ -48,7 +48,7 @@
                     <h4 class="text-xl font-medium mb-2">
                       Win without pitching manifesto
                     </h4>
-                    <p class="text-lg text-gray-400">
+                    <p class="text-lg text-body">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Quis enim lobortis scelerisque fermentum.
@@ -67,7 +67,7 @@
                     <h4 class="text-xl font-medium mb-2">
                       Preline - Free Design system
                     </h4>
-                    <p class="text-lg text-gray-400">
+                    <p class="text-lg text-body">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Quis enim lobortis scelerisque fermentum.
@@ -77,7 +77,7 @@
                     <h4 class="text-xl font-medium mb-2">
                       LandingFolio - Inspiration and Tawilind snippets
                     </h4>
-                    <p class="text-lg text-gray-400">
+                    <p class="text-lg text-body">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Quis enim lobortis scelerisque fermentum.
@@ -87,7 +87,7 @@
                     <h4 class="text-xl font-medium mb-2">
                       Cruip - Premium themes
                     </h4>
-                    <p class="text-lg text-gray-400">
+                    <p class="text-lg text-body">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Quis enim lobortis scelerisque fermentum.
@@ -98,7 +98,7 @@
                     <h4 class="text-xl font-medium mb-2">
                       Strapi - Open source CMS
                     </h4>
-                    <p class="text-lg text-gray-400">
+                    <p class="text-lg text-body">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Quis enim lobortis scelerisque fermentum.
@@ -108,7 +108,7 @@
                     <h4 class="text-xl font-medium mb-2">
                       Metabase - Data analythics
                     </h4>
-                    <p class="text-lg text-gray-400">
+                    <p class="text-lg text-body">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Quis enim lobortis scelerisque fermentum.
@@ -127,7 +127,7 @@
                     <h4 class="text-xl font-medium mb-2">
                       The Futur - Chris Do
                     </h4>
-                    <p class="text-lg text-gray-400">
+                    <p class="text-lg text-body">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Quis enim lobortis scelerisque fermentum.
@@ -137,7 +137,7 @@
                     <h4 class="text-xl font-medium mb-2">
                       Flux Academy - Ran Segall
                     </h4>
-                    <p class="text-lg text-gray-400">
+                    <p class="text-lg text-body">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Quis enim lobortis scelerisque fermentum.
@@ -147,7 +147,7 @@
                     <h4 class="text-xl font-medium mb-2">
                       Refactoring UI - Steve Schoger
                     </h4>
-                    <p class="text-lg text-gray-400">
+                    <p class="text-lg text-body">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Quis enim lobortis scelerisque fermentum.
@@ -157,7 +157,7 @@
                     <h4 class="text-xl font-medium mb-2">
                       Clean Code - Uncle Bob - All lessons
                     </h4>
-                    <p class="text-lg text-gray-400">
+                    <p class="text-lg text-body">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Quis enim lobortis scelerisque fermentum.
@@ -183,7 +183,7 @@
                   <li class="py-2 border-b border-border-default">
                     <a
                       :class="{ 'text-purple-600': page === '1' }"
-                      class="flex items-center px-3 group text-gray-400 hover:text-purple-600 transition duration-150 ease-in-out"
+                      class="flex items-center px-3 group text-body hover:text-purple-600 transition duration-150 ease-in-out"
                       href="#0"
                       @click.prevent="page = '1'"
                     >
@@ -202,7 +202,7 @@
                   <li class="py-2 border-b border-border-default">
                     <a
                       :class="{ 'text-purple-600': page === '2' }"
-                      class="flex items-center px-3 group text-gray-400 hover:text-purple-600 transition duration-150 ease-in-out"
+                      class="flex items-center px-3 group text-body hover:text-purple-600 transition duration-150 ease-in-out"
                       href="#0"
                       @click.prevent="page = '2'"
                     >
@@ -221,7 +221,7 @@
                   <li class="py-2 border-b border-border-default">
                     <a
                       :class="{ 'text-purple-600': page === '3' }"
-                      class="flex items-center px-3 group text-gray-400 hover:text-purple-600 transition duration-150 ease-in-out"
+                      class="flex items-center px-3 group text-body hover:text-purple-600 transition duration-150 ease-in-out"
                       href="#0"
                       @click.prevent="page = '3'"
                     >

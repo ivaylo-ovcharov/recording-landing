@@ -53,7 +53,7 @@ export default {
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
           <h2 class="h2 mb-4">Build web app with Swapi and Vue.js</h2>
-          <p class="text-xl text-gray-400">
+          <p class="text-xl text-body">
             Enhance your learning experience with our carefully curated
             resources designed to complement the Vue.js Mastery Course.
           </p>
@@ -89,7 +89,7 @@ export default {
                     />
                   </figure>
                 </a>
-                <p class="text-lg text-gray-400 grow">
+                <p class="text-lg text-body grow">
                   {{ course.description }}
                 </p>
                 <!-- <h3 class="h4 mb-2">

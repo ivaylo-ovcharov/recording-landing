@@ -100,7 +100,7 @@
           </ul> -->
 
           <!-- Copyrights note -->
-          <div class="text-gray-400 text-sm mr-4">
+          <div class="text-body text-sm mr-4">
             &copy; Ivo Ovcharov. All rights reserved.
           </div>
         </div>

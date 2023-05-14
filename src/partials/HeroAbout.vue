@@ -23,7 +23,7 @@
             A few words about me
           </h1>
           <p
-            class="text-xl text-gray-400 mb-8"
+            class="text-xl text-body mb-8"
             data-aos="fade-up"
             data-aos-delay="200"
           >

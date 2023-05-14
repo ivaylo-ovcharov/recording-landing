@@ -5,7 +5,7 @@
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
           <h2 class="h2 mb-4">From entusiast to a full-stack Designer</h2>
-          <p class="text-xl text-gray-400">
+          <p class="text-xl text-body">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
@@ -41,7 +41,7 @@
                 ></div>
                 <h4 class="h4">Startup entusiast</h4>
               </div>
-              <p class="text-lg text-gray-400">
+              <p class="text-lg text-body">
                 Pretium lectus quam id leo. Urna et pharetra pharetra massa
                 massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit
                 cursus risus.
@@ -78,7 +78,7 @@
                 ></div>
                 <h4 class="h4">Full stack Freelance developer</h4>
               </div>
-              <p class="text-lg text-gray-400">
+              <p class="text-lg text-body">
                 Pretium lectus quam id leo. Urna et pharetra pharetra massa
                 massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit
                 cursus risus.
@@ -115,7 +115,7 @@
                 ></div>
                 <h4 class="h4">Frontend developer at teamwork.com</h4>
               </div>
-              <p class="text-lg text-gray-400">
+              <p class="text-lg text-body">
                 Pretium lectus quam id leo. Urna et pharetra pharetra massa
                 massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit
                 cursus risus.
@@ -148,7 +148,7 @@
                 ></div>
                 <h4 class="h4">1 million happy customers</h4>
               </div>
-              <p class="text-lg text-gray-400">
+              <p class="text-lg text-body">
                 Pretium lectus quam id leo. Urna et pharetra pharetra massa
                 massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit
                 cursus risus.

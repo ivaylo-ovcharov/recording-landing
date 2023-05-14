@@ -15,7 +15,7 @@
             Ready to enhance your skills?
           </h1>
           <p
-            class="text-xl text-gray-400 mb-8"
+            class="text-xl text-body mb-8"
             data-aos="fade-up"
             data-aos-delay="200"
             data-aos-anchor="[data-aos-id-cta]"
@@ -61,7 +61,7 @@
 
           <!-- Check list -->
           <ul
-            class="flex flex-wrap justify-center text-lg text-gray-400 -mx-2 -my-1"
+            class="flex flex-wrap justify-center text-lg text-body -mx-2 -my-1"
           >
             <li
               class="flex items-center mx-3 my-1"

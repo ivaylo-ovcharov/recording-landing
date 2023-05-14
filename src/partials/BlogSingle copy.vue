@@ -11,7 +11,7 @@
                   Design and Build web app with Swapi and Vue.js
                 </h1>
                 <p
-                  class="text-xl text-gray-400"
+                  class="text-xl text-body"
                   data-aos="fade-up"
                   data-aos-delay="200"
                 >
@@ -88,7 +88,7 @@
             <WistiaPlayer videoId="irrbbakfrf" class="mx-auto md:max-w-none" />
 
             <!-- Article content -->
-            <div class="text-lg text-gray-400">
+            <div class="text-lg text-body">
               <p class="mb-8">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
@@ -214,7 +214,7 @@
               <div
                 class="md:flex md:items-center md:justify-between text-center md:text-left"
               >
-                <!-- <div class="text-lg text-gray-400 italic">
+                <!-- <div class="text-lg text-body italic">
                   Originally published at
                   <a class="text-gray-200" href="https://cruip.com/"
                     >https://cruip.com/</a
@@ -330,7 +330,7 @@
                     >
                   </h3>
                 </header>
-                <p class="text-lg text-gray-400 grow">
+                <p class="text-lg text-body grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
@@ -396,7 +396,7 @@
                     >
                   </h3>
                 </header>
-                <p class="text-lg text-gray-400 grow">
+                <p class="text-lg text-body grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
@@ -469,7 +469,7 @@
                     >
                   </h3>
                 </header>
-                <p class="text-lg text-gray-400 grow">
+                <p class="text-lg text-body grow">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>

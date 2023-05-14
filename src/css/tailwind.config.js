@@ -8,7 +8,7 @@ module.exports = {
         ...colors,
         surface: "var(--background-surface)",
         heading: "var(--text-heading)",
-        body: "var(--text-heading)",
+        body: "var(--text-body)",
         border: {
           default: "var(--border-default)",
         },

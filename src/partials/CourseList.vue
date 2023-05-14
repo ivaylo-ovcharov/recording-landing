@@ -74,7 +74,7 @@
                   > -->
                 </h3>
               </header>
-              <p class="text-lg text-gray-400 grow">
+              <p class="text-lg text-body grow">
                 Enhance your learning experience with our carefully curated
                 resources designed to complement the Vue.js Mastery Course.
                 Access Figma files, in-depth guides, and reusable code snippets.
@@ -140,7 +140,7 @@
                   </a>
                 </h3>
               </header>
-              <p class="text-lg text-gray-400 grow">
+              <p class="text-lg text-body grow">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
@@ -169,7 +169,7 @@
                   >
                 </h3>
               </header>
-              <p class="text-lg text-gray-400 grow">
+              <p class="text-lg text-body grow">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
@@ -200,7 +200,7 @@
                   >
                 </h3>
               </header>
-              <p class="text-lg text-gray-400 grow">
+              <p class="text-lg text-body grow">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
