@@ -7,6 +7,7 @@ import CourseSwapi from "./pages/courses/CourseSwapi.vue";
 import About from "./pages/About.vue";
 import PageNotFound from "./pages/PageNotFound.vue";
 import Courses from "./pages/Courses.vue";
+import Resources from "./pages/Resources.vue";
 
 const routerHistory = createWebHistory();
 
@@ -37,6 +38,10 @@ const router = createRouter({
     {
       path: "/about",
       component: About,
+    },
+    {
+      path: "/resources",
+      component: Resources,
     },
     {
       path: "/community",
