@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="max-w-6xl mx-auto px-4 sm:px-6 relative">
-      <div class="pt-12 md:pt-20 border-t border-b border-gray-800">
+      <div class="pt-12 md:pt-20 border-t border-b border-border-default">
         <div
           class="max-w-3xl mx-auto text-center pb-12 md:pb-16"
           data-aos-id-cta

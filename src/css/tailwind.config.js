@@ -9,6 +9,9 @@ module.exports = {
         surface: "var(--background-surface)",
         heading: "var(--text-heading)",
         body: "var(--text-heading)",
+        border: {
+          default: "var(--border-default)",
+        },
         gray: {
           100: "#EBF1F5",
           200: "#D9E3EA",

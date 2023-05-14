@@ -174,13 +174,13 @@
               data-aos-delay="200"
             >
               <h4
-                class="text-lg font-medium px-3 pb-3 border-b border-gray-800"
+                class="text-lg font-medium px-3 pb-3 border-b border-border-default"
               >
                 Choose a topic
               </h4>
               <nav>
                 <ul>
-                  <li class="py-2 border-b border-gray-800">
+                  <li class="py-2 border-b border-border-default">
                     <a
                       :class="{ 'text-purple-600': page === '1' }"
                       class="flex items-center px-3 group text-gray-400 hover:text-purple-600 transition duration-150 ease-in-out"
@@ -199,7 +199,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="py-2 border-b border-gray-800">
+                  <li class="py-2 border-b border-border-default">
                     <a
                       :class="{ 'text-purple-600': page === '2' }"
                       class="flex items-center px-3 group text-gray-400 hover:text-purple-600 transition duration-150 ease-in-out"
@@ -218,7 +218,7 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="py-2 border-b border-gray-800">
+                  <li class="py-2 border-b border-border-default">
                     <a
                       :class="{ 'text-purple-600': page === '3' }"
                       class="flex items-center px-3 group text-gray-400 hover:text-purple-600 transition duration-150 ease-in-out"

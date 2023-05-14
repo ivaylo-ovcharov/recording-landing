@@ -10,28 +10,28 @@
             <li>
               <router-link
                 to="/courses"
-                class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                class="text-heading hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >Courses</router-link
               >
             </li>
             <li>
               <router-link
                 to="/community"
-                class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                class="text-heading hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >Community
               </router-link>
             </li>
             <li>
               <router-link
                 to="/resources"
-                class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                class="text-heading hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >Recourses</router-link
               >
             </li>
             <li>
               <router-link
                 to="/about"
-                class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                class="text-heading hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >About me</router-link
               >
             </li>

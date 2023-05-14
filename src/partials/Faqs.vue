@@ -2,7 +2,7 @@
 <template>
   <section>
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
-      <div class="py-12 md:py-20 border-t border-gray-800 lg:border-0 lg:pt-0">
+      <div class="py-12 md:py-20 lg:border-0 lg:pt-0">
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12">
           <h2 class="h2">Frequently asked questions</h2>

@@ -32,11 +32,11 @@
                   2016
                 </div>
                 <div
-                  class="absolute left-0 h-full px-px bg-gray-800 ml-20 self-start transform -translate-x-1/2 translate-y-3"
+                  class="absolute left-0 h-full px-px bg-border-default ml-20 self-start transform -translate-x-1/2 translate-y-3"
                   aria-hidden="true"
                 ></div>
                 <div
-                  class="absolute left-0 w-2 h-2 bg-purple-600 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2"
+                  class="absolute left-0 w-2 h-2 bg-purple-600 border-4 box-content border-border-default rounded-full ml-20 transform -translate-x-1/2"
                   aria-hidden="true"
                 ></div>
                 <h4 class="h4">Startup entusiast</h4>
@@ -69,11 +69,11 @@
                   2017
                 </div>
                 <div
-                  class="absolute left-0 h-full px-px bg-gray-800 ml-20 self-start transform -translate-x-1/2 translate-y-3"
+                  class="absolute left-0 h-full px-px bg-border-default ml-20 self-start transform -translate-x-1/2 translate-y-3"
                   aria-hidden="true"
                 ></div>
                 <div
-                  class="absolute left-0 w-2 h-2 bg-purple-600 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2"
+                  class="absolute left-0 w-2 h-2 bg-purple-600 border-4 box-content border-border-default rounded-full ml-20 transform -translate-x-1/2"
                   aria-hidden="true"
                 ></div>
                 <h4 class="h4">Full stack Freelance developer</h4>
@@ -110,7 +110,7 @@
                   aria-hidden="true"
                 ></div> -->
                 <div
-                  class="absolute left-0 w-2 h-2 bg-purple-600 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2"
+                  class="absolute left-0 w-2 h-2 bg-purple-600 border-4 box-content border-border-default rounded-full ml-20 transform -translate-x-1/2"
                   aria-hidden="true"
                 ></div>
                 <h4 class="h4">Frontend developer at teamwork.com</h4>
