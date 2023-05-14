@@ -90,7 +90,7 @@
         </div>
 
         <!-- Hero image -->
-        <WistiaPlayer videoId="um97m04i2o" />
+        <WistiaPlayer videoId="r6bwoe422e" />
       </div>
     </div>
   </section>
