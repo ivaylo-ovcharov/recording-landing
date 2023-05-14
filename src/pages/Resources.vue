@@ -25,9 +25,13 @@
                 </div>
                 <ul class="-my-4">
                   <li class="py-4">
-                    <h4 class="text-xl font-medium mb-2">
+                    <a
+                      class="text-xl font-medium mb-2"
+                      href="https://www.amazon.com/How-Win-Friends-Influence-People/dp/0671027034"
+                      target="_blank"
+                    >
                       How to win friends and influence people
-                    </h4>
+                    </a>
                     <p class="text-lg text-body">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
