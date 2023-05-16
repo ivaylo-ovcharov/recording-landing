@@ -188,6 +188,44 @@
                   </li>
                 </ul>
               </div>
+
+              <div v-show="page === '4'">
+                <div class="mb-8">
+                  <h2 class="h2 mb-4">Design systems</h2>
+                </div>
+                <ul class="-my-4">
+                  <li class="py-4">
+                    <h4 class="text-xl font-medium mb-2">
+                      Attlasian Design System
+                    </h4>
+                    <p class="text-lg text-body">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Quis enim lobortis scelerisque fermentum.
+                    </p>
+                  </li>
+                  <li class="py-4">
+                    <h4 class="text-xl font-medium mb-2">
+                      Monday.com Design System
+                    </h4>
+                    <p class="text-lg text-body">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Quis enim lobortis scelerisque fermentum.
+                    </p>
+                  </li>
+                  <li class="py-4">
+                    <h4 class="text-xl font-medium mb-2">
+                      Polaris - Shopify Design System
+                    </h4>
+                    <p class="text-lg text-body">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Quis enim lobortis scelerisque fermentum.
+                    </p>
+                  </li>
+                </ul>
+              </div>
             </main>
 
             <!-- Nav sidebar -->
@@ -249,6 +287,25 @@
                       @click.prevent="page = '3'"
                     >
                       <span>Youtube Favorites</span>
+                      <svg
+                        class="w-3 h-3 fill-current shrink-0 ml-2 opacity-0 group-hover:opacity-100 group-hover:text-purple-600 group-hover:translate-x-1 transition duration-150 ease-in-out transform"
+                        viewBox="0 0 12 12"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="py-2 border-b border-border-default">
+                    <a
+                      :class="{ 'text-purple-600': page === '4' }"
+                      class="flex items-center px-3 group text-body hover:text-purple-600 transition duration-150 ease-in-out"
+                      href="#0"
+                      @click.prevent="page = '4'"
+                    >
+                      <span>Design systems</span>
                       <svg
                         class="w-3 h-3 fill-current shrink-0 ml-2 opacity-0 group-hover:opacity-100 group-hover:text-purple-600 group-hover:translate-x-1 transition duration-150 ease-in-out transform"
                         viewBox="0 0 12 12"

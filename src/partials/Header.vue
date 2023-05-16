@@ -8,32 +8,16 @@
           </router-link>
           <ul class="flex">
             <li>
-              <router-link
-                to="/courses"
-                class="text-heading hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
-                >Courses</router-link
-              >
+              <HeaderItem to="/courses">Courses</HeaderItem>
             </li>
             <li>
-              <router-link
-                to="/community"
-                class="text-heading hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
-                >Community
-              </router-link>
+              <HeaderItem to="/community">Community</HeaderItem>
             </li>
             <li>
-              <router-link
-                to="/resources"
-                class="text-heading hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
-                >Recourses</router-link
-              >
+              <HeaderItem to="/resources">Recourses</HeaderItem>
             </li>
             <li>
-              <router-link
-                to="/about"
-                class="text-heading hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
-                >About me</router-link
-              >
+              <HeaderItem to="/about" active>About me</HeaderItem>
             </li>
           </ul>
 
@@ -128,10 +112,13 @@
 
 <script>
 import ThemeSwitch from "./ThemeSwitch.vue";
+import HeaderItem from "./HeaderItem.vue";
+
 export default {
   name: "Header",
   components: {
     ThemeSwitch,
+    HeaderItem,
   },
   data: function () {
     return {
