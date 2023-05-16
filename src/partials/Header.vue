@@ -23,18 +23,9 @@
 
           <ul class="flex justify-end flex-wrap items-center">
             <ThemeSwitch />
-            <!-- <li>
-              <a
-                href="#0"
-                class="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out gap-2"
-              >
-                Let's grab a coffee</a
-              >
-            </li> -->
           </ul>
         </nav>
 
-        <!-- Mobile menu -->
         <div class="md:hidden w-full">
           <div class="flex justify-between">
             <button

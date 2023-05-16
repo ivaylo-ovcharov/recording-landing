@@ -105,9 +105,9 @@
           </div>
           <router-link
             to="/privacy"
-            class="relative text-body hover:bg-white hover:bg-opacity-5 rounded-sm px-4 py-2 flex items-center transition duration-150 ease-in-out"
+            class="relative text-heading hover:text-gray-200 hover:bg-white hover:bg-opacity-5 rounded-sm px-4 py-2 flex items-center transition duration-150 ease-in-out"
           >
-            Privacy Policy
+            Privacy
           </router-link>
         </div>
       </div>
