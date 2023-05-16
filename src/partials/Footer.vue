@@ -103,6 +103,12 @@
           <div class="text-body text-sm mr-4">
             &copy; Ivo Ovcharov. All rights reserved.
           </div>
+          <router-link
+            to="/privacy"
+            class="relative text-body hover:bg-white hover:bg-opacity-5 rounded-sm px-4 py-2 flex items-center transition duration-150 ease-in-out"
+          >
+            Privacy Policy
+          </router-link>
         </div>
       </div>
     </div>

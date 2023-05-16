@@ -8,6 +8,7 @@ import About from "./pages/About.vue";
 import PageNotFound from "./pages/PageNotFound.vue";
 import Courses from "./pages/Courses.vue";
 import Resources from "./pages/Resources.vue";
+import Privacy from "./pages/Privacy.vue";
 
 const routerHistory = createWebHistory();
 
@@ -46,6 +47,10 @@ const router = createRouter({
     {
       path: "/community",
       component: Community,
+    },
+    {
+      path: "/privacy",
+      component: Privacy,
     },
     {
       path: "/:pathMatch(.*)*",
